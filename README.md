@@ -8,3 +8,15 @@ This project leverages python 3.7 with the following packages:<br>
 **[Pathlib](https://pypi.org/project/pathlib/)** - For working with CSV files within our project<br>
 **[Matplotlib](https://matplotlib.org/)** - For plotting our statistical analyses<br>
 **[Numpy](https://numpy.org/)** - For using the square root of trading_days in a year
+
+## Installation Guide
+
+Before running the application first import the following dependencies:
+
+```python
+import pandas as pd
+from pathlib import Path
+%matplotlib inline
+import numpy as np
+```
+
