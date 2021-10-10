@@ -20,3 +20,25 @@ from pathlib import Path
 import numpy as np
 ```
 
+## Usage
+
+To use the loan qualifier application simply clone the repository and run the **app.py** with:
+
+```python
+python risk_return_analysis.ipynb
+```
+This application provides the Sharpe Ratios for each of the four funds profiled. This metric tells us the risk-reward aspect of a fund. The higher their Sharpe Ratio, the better risk-reward profile that fund has. The following is the result for the Sharpe Ratios:
+
+![Sharpe Ratios](Images/sharpe_ratios.png)
+
+Finally, we also calculated the rolling beta in order to understand which fund was more conservative in terms of broader market movement. This is a risk metric for diversification. The following is the result of the 2 plots for rolling beta:
+
+Berkshrie Hathaway:
+
+![Berkshire Hathaway Beta](Images/berkshire_beta.png)
+
+Tiger Global Management:
+
+![Tiger GLobal Management Beta](Images/tiger_beta.png)
+
+When it ia all analyzed, we use this information to select the fund portfolio to recommend for investment.
